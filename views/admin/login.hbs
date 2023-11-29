@@ -13,13 +13,9 @@
   </head>
   <body>
     <div class="container">
-    <section class="loginWrapper">
       <form action="/admin/login" method="post" class="mx-auto">
-        <h3 class="h3">Iniciar Sesión</h3>
-        <label
-          for="inputEmail3"
-          class="col-sm-2 w-50 col-form-label"
-        >Email</label>
+        <h3 class="text-center">Sign In</h3>
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
         <input
           type="email"
           class="form-control"
@@ -28,7 +24,7 @@
         />
         <label
           for="inputPassword3"
-          class="col-sm-2 col-form-label w-50"
+          class="col-sm-2 col-form-label"
         >Password</label>
         <input
           type="password"
@@ -36,13 +32,12 @@
           id="inputPassword3"
           name="password"
         />
-        <button type="submit" class="btn btn-primary">Sign in</button>
+        <button type="submit" class="btn btn-primary mt-2">Sign in</button>
       </form>
       {{#if error}}
         <p>Usuario y/o contraseña incorrectos</p>
       {{/if}}
     </div>
-    </section>
     <script
       src="https://kit.fontawesome.com/5735417465.js"
       crossorigin="anonymous"
