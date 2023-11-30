@@ -129,8 +129,4 @@ router.post("/modificar", async (req, res, next) => {
   }
 });
 
-// Modificamos con imagenes
-
-// Manipulacion de imagenes
-
 module.exports = router;
